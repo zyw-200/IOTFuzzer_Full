@@ -1,0 +1,592 @@
+load_plugin ../qemu_mode/qemu/plugins/callbacktests/callbacktests.so
+do_callbacktests jjhttpd
+
+do_callbacktests brk
+do_callbacktests sample
+do_callbacktests jjhttpd
+do_callbacktests miniupnpd
+do_callbacktests lld2d
+do_callbacktests dnsmasq
+do_callbacktests httpd
+do_callbacktests dropbear
+do_callbacktests lld2d
+do_callbacktests hedwig.cgi
+do_callbacktests lighttpd
+
+
+
+dropbear other address 42b844
+tplink httpd 503138
+lighttpd 432c9c
+
+
+export REQUEST_METHOD="POST"
+
+do_callbacktests single_httpd_sa
+
+httpd -f /var/run/httpd.conf 
+
+//caller_pos
+//0 tcg-target.inc.c
+//1 exec.c
+//2 include/exec/cpu_ldst_template.h
+//3 softmmu_template.h
+
+
+dnsmasq (1)skip brk (2) memory consistency, so end before 
+
+
+new_env:55555680c550, orig ffffffff, ffffffff, ffffffff,ffffffff env:55555680c550, pc:80182cf0, addr:80182800, ffffffffffffffff,mmu_idx:0 index:82, addr_code:ffffffff, addr_read:ffffffff
+80182cf0
+Bad ram pointer 0x80182cef
+
+load_plugin ../qemu_mode/qemu/plugins/unpacker/unpacker.so
+ trace_by_name mirai.mpsl
+
+do_callbacktests httpd_sample
+do_callbacktests execv_sample
+
+
+Alphanetworks
+wrgnd08_dlob_dir815
+
+
+httpd -f /var/run/httpd.conf
+
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://hostname/resource
+
+curl -H "Accept: application/xml" -H "Content-Type: application/xml" -X GET http://hostname/resource
+
+GET /hedwig.cgi HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+updatewifistats
+
+tlb_fill
+
+object_add memory-backend-file,id=mem1,size=64M,mem-path=/dev/hugepages
+device_add pc-dimm,id=dimm1,memdev=mem1
+
+memory_region_init_ram_from_file
+qemu_ram_alloc_from_file
+qemu_ram_mmap
+
+mips_cpu_exec_interrupt
+
+CPUState cpu;
+MIPSCPU *mips_cpu = MIPS_CPU(cpu);
+CPUMIPSState *env = &mips_cpu->env;
+
+CPUArchState env;
+MIPSCPU *mips_cpu = mips_env_get_cpu(env);
+CPUState *cs = CPU(mips_cpu);
+
+sysctl -w vm.nr_hugepages = 1496 
+sysctl -p
+
+tlb_set_page_with_attrs
+
+start pc is:7752aa00
+ctx.pc:7752aa00
+addr 7752aa00,d4554a00
+
+d-link httpd
+sys num:4078 pc:7799f300 ra:406ea8, a0:45c054, sp:7f915a28
+end pc:7799f304, ret:0, err:0, sp:7f915a28, exit:10000
+syscall execute:0.000026
+----------------------------------------------------------
+sys num:4005 pc:779a0270 ra:40e054, a0:4c0bc4, sp:7f9159c0
+end pc:779a0274, ret:8, err:0, sp:7f9159c0, exit:10000
+syscall execute:0.004150
+----------------------------------------------------------
+sys num:4055 pc:779a24d4 ra:40ba48, a0:8, sp:7f915998
+end pc:779a24d8, ret:0, err:0, sp:7f915998, exit:10000
+syscall execute:0.000025
+----------------------------------------------------------
+sys num:4108 pc:7799e240 ra:40ba60, a0:8, sp:7f915908
+end pc:7799e244, ret:0, err:0, sp:7f915908, exit:10000
+syscall execute:0.000034
+----------------------------------------------------------
+sys num:4006 pc:7799db40 ra:40b800, a0:8, sp:7f9159a8
+end pc:7799db44, ret:0, err:0, sp:7f9159a8, exit:10000
+syscall execute:0.000034
+----------------------------------------------------------
+sys num:4184 pc:779e29c0 ra:4035c8, a0:1, sp:7f915968
+end pc:779e29c4, ret:0, err:0, sp:7f915968, exit:10000
+syscall execute:0.000199
+----------------------------------------------------------
+sys num:4055 pc:779a24d4 ra:4033d0, a0:8, sp:7f915960
+end pc:779a24d8, ret:0, err:0, sp:7f915960, exit:10000
+syscall execute:0.000016
+----------------------------------------------------------
+sys num:4055 pc:779a24d4 ra:4033e8, a0:9, sp:7f915960
+end pc:779a24d8, ret:0, err:0, sp:7f915960, exit:10000
+syscall execute:0.000015
+
+
+
+
+cgibin
+
+sys num:4045 pc:76f7fd74 ra:76f83bac, a0:0, sp:7f88d750, pgd:f68c000, qemu:pid:17142
+end pc:76f7fd78, ra:76f83bac, ret:9ea000, err:0, sp:7f88d750, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4045 pc:76f7fd74 ra:76f83bd4, a0:9eb000, sp:7f88d750, pgd:f68c000, qemu:pid:17142
+end pc:76f7fd78, ra:76f83bd4, ret:9eb000, err:0, sp:7f88d750, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4142 pc:76f84188 ra:404588, a0:1, sp:7f88d1b8, pgd:f68c000, qemu:pid:17142
+end pc:76f8418c, ra:404588, ret:1, err:0, sp:7f88d1b8, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4003 pc:76f83800 ra:4045e0, a0:0, sp:7f88d1f0, pgd:f68c000, qemu:pid:17142
+end pc:76f83804, ra:4045e0, ret:2c, err:0, sp:7f88d1f0, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4005 pc:76f83270 ra:76fa4c98, a0:41a36c, sp:7f88d7f0, pgd:f68c000, qemu:pid:17142
+end pc:76f83274, ra:76fa4c98, ret:3, err:0, sp:7f88d7f0, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4054 pc:76f82550 ra:76fab994, a0:3, sp:7f88d748, pgd:f68c000, qemu:pid:17142
+end pc:76f82554, ra:76fab994, ret:19, err:1, sp:7f88d748, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4045 pc:76f7fd74 ra:76f83bd4, a0:9ec000, sp:7f88d770, pgd:f68c000, qemu:pid:17142
+end pc:76f7fd78, ra:76f83bd4, ret:9ec000, err:0, sp:7f88d770, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4003 pc:76f83800 ra:76fa48c8, a0:3, sp:7f88d760, pgd:f68c000, qemu:pid:17142
+end pc:76f83804, ra:76fa48c8, ret:14, err:0, sp:7f88d760, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4006 pc:76f80b40 ra:76fa28d8, a0:3, sp:7f88d7f8, pgd:f68c000, qemu:pid:17142
+end pc:76f80b44, ra:76fa28d8, ret:0, err:0, sp:7f88d7f8, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4183 pc:76fc5960 ra:40d290, a0:1, sp:7f88d738, pgd:f68c000, qemu:pid:17142
+end pc:76fc5964, ra:40d290, ret:3, err:0, sp:7f88d738, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4055 pc:76f854d4 ra:40d2b8, a0:3, sp:7f88d730, pgd:f68c000, qemu:pid:17142
+end pc:76f854d8, ra:40d2b8, ret:0, err:0, sp:7f88d730, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4170 pc:76fc5400 ra:40d304, a0:3, sp:7f88d738, pgd:f68c000, qemu:pid:17142
+end pc:76fc5404, ra:40d304, ret:0, err:0, sp:7f88d738, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4178 pc:76fc5740 ra:40d38c, a0:3, sp:7f88d798, pgd:f68c000, qemu:pid:17142
+end pc:76fc5744, ra:40d38c, ret:c, err:0, sp:7f88d798, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4178 pc:76fc5740 ra:40d3b0, a0:3, sp:7f88d798, pgd:f68c000, qemu:pid:17142
+end pc:76fc5744, ra:40d3b0, ret:25, err:0, sp:7f88d798, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4003 pc:76f83800 ra:40d460, a0:3, sp:7f88d7d0, pgd:f68c000, qemu:pid:17142
+end pc:76f83804, ra:40d460, ret:c, err:0, sp:7f88d7d0, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4006 pc:76f80b40 ra:40d478, a0:3, sp:7f88d7d0, pgd:f68c000, qemu:pid:17142
+end pc:76f80b44, ra:40d478, ret:0, err:0, sp:7f88d7d0, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4005 pc:76f83270 ra:76fa4c98, a0:41a870, sp:7f88d7f0, pgd:f68c000, qemu:pid:17142
+end pc:76f83274, ra:76fa4c98, ret:3, err:0, sp:7f88d7f0, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4054 pc:76f82550 ra:76fab994, a0:3, sp:7f88d748, pgd:f68c000, qemu:pid:17142
+end pc:76f82554, ra:76fab994, ret:19, err:1, sp:7f88d748, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4004 pc:76f85dc0 ra:76fa498c, a0:1, sp:7f88dc78, pgd:f68c000, qemu:pid:17142
+end pc:76f85dc4, ra:76fa498c, ret:72, err:0, sp:7f88dc78, exit:0, pid:17142
+----------------------------------------------------------
+sys num:4001 pc:76f80f1c ra:76fcb180, a0:ffffffff, sp:7f88dcf8, pgd:f68c000, qemu:pid:17142
+5.034293:0.018243:0.003161:0.000157:5.015893:19
+child process
+
+
+jjhttpd
+----------------------------------------------------------
+sys num:4012 pc:77b35820 ra:77b358b8, a0:7fc3bf42, sp:7f5ffaf8, pgd:f267000, qemu:pid:10566
+end pc:77b35824, ret:0, err:0, sp:7f5ffaf8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4043 pc:77b3b790 ra:77b507a8, a0:7f5ffb2c, sp:7f5ffae0, pgd:f267000, qemu:pid:10566
+end pc:77b3b794, ret:6667bfd0, err:0, sp:7f5ffae0, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4005 pc:77b38de4 ra:77b38ec0, a0:414520, sp:7f5ffa60, pgd:f267000, qemu:pid:10566
+end pc:77b38de8, ret:2, err:1, sp:7f5ffa60, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4005 pc:77b38de4 ra:77b38ec0, a0:414220, sp:7f5ff1b0, pgd:f267000, qemu:pid:10566
+end pc:77b38de8, ret:f, err:0, sp:7f5ff1b0, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4054 pc:77b37ba8 ra:77b63418, a0:f, sp:7f5ff120, pgd:f267000, qemu:pid:10566
+end pc:77b37bac, ret:0, err:0, sp:7f5ff120, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4045 pc:77b878c0 ra:77b7a448, a0:58d000, sp:7f5ff0d0, pgd:f267000, qemu:pid:10566
+end pc:77b878c4, ret:58d000, err:0, sp:7f5ff0d0, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4020 pc:77b371a4 ra:77df8f1c, a0:58bda0, sp:7f5ff1f8, pgd:f267000, qemu:pid:10566
+end pc:77b371a8, ret:33b2, err:0, sp:7f5ff1f8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4222 pc:77b35524 ra:77df8f2c, a0:417268, sp:7f5ff208, pgd:f267000, qemu:pid:10566
+end pc:77b35528, ret:33b2, err:0, sp:7f5ff208, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4004 pc:77b3bfa4 ra:77b7b81c, a0:f, sp:7f5ff080, pgd:f267000, qemu:pid:10566
+end pc:77b3bfa8, ret:62, err:0, sp:7f5ff080, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4006 pc:77b35cac ra:77b57928, a0:f, sp:7f5ff1e8, pgd:f267000, qemu:pid:10566
+end pc:77b35cb0, ret:0, err:0, sp:7f5ff1e8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4213 pc:77b3adfc ra:77b3aea0, a0:7f5ff6d4, sp:7f5ff1b8, pgd:f267000, qemu:pid:10566
+end pc:77b3ae00, ret:0, err:0, sp:7f5ff1b8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4005 pc:77b38de4 ra:77b38ec0, a0:414520, sp:7f5ff190, pgd:f267000, qemu:pid:10566
+end pc:77b38de8, ret:2, err:1, sp:7f5ff190, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4013 pc:77b3b700 ra:40a458, a0:0, sp:7f5fca58, pgd:f267000, qemu:pid:10566
+end pc:77b3b704, ret:5baa8a1e, err:0, sp:7f5fca58, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4013 pc:77b3b700 ra:77b52684, a0:0, sp:7f5fc968, pgd:f267000, qemu:pid:10566
+end pc:77b3b704, ret:5baa8a1e, err:0, sp:7f5fc968, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4005 pc:77b38de4 ra:77b38ec0, a0:77b8bc4c, sp:7f5fc848, pgd:f267000, qemu:pid:10566
+end pc:77b38de8, ret:f, err:0, sp:7f5fc848, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc870, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:6, err:0, sp:7f5fc870, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc870, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:0, err:0, sp:7f5fc870, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4006 pc:77b35cac ra:77b52630, a0:f, sp:7f5fc870, pgd:f267000, qemu:pid:10566
+end pc:77b35cb0, ret:0, err:0, sp:7f5fc870, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4005 pc:77b38de4 ra:77b38ec0, a0:77b8bc4c, sp:7f5fc790, pgd:f267000, qemu:pid:10566
+end pc:77b38de8, ret:f, err:0, sp:7f5fc790, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc7b8, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:6, err:0, sp:7f5fc7b8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc7b8, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:0, err:0, sp:7f5fc7b8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4006 pc:77b35cac ra:77b52630, a0:f, sp:7f5fc7b8, pgd:f267000, qemu:pid:10566
+end pc:77b35cb0, ret:0, err:0, sp:7f5fc7b8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4005 pc:77b38de4 ra:77b38ec0, a0:77b8bc4c, sp:7f5fc8a0, pgd:f267000, qemu:pid:10566
+end pc:77b38de8, ret:f, err:0, sp:7f5fc8a0, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc8c8, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:6, err:0, sp:7f5fc8c8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc8c8, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:0, err:0, sp:7f5fc8c8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4006 pc:77b35cac ra:77b52630, a0:f, sp:7f5fc8c8, pgd:f267000, qemu:pid:10566
+end pc:77b35cb0, ret:0, err:0, sp:7f5fc8c8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4013 pc:77b3b700 ra:77b52684, a0:0, sp:7f5fc968, pgd:f267000, qemu:pid:10566
+end pc:77b3b704, ret:5baa8a1e, err:0, sp:7f5fc968, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4005 pc:77b38de4 ra:77b38ec0, a0:77b8bc4c, sp:7f5fc848, pgd:f267000, qemu:pid:10566
+end pc:77b38de8, ret:f, err:0, sp:7f5fc848, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc870, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:6, err:0, sp:7f5fc870, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc870, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:0, err:0, sp:7f5fc870, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4006 pc:77b35cac ra:77b52630, a0:f, sp:7f5fc870, pgd:f267000, qemu:pid:10566
+end pc:77b35cb0, ret:0, err:0, sp:7f5fc870, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4005 pc:77b38de4 ra:77b38ec0, a0:77b8bc4c, sp:7f5fc790, pgd:f267000, qemu:pid:10566
+end pc:77b38de8, ret:f, err:0, sp:7f5fc790, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc7b8, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:6, err:0, sp:7f5fc7b8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc7b8, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:0, err:0, sp:7f5fc7b8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4006 pc:77b35cac ra:77b52630, a0:f, sp:7f5fc7b8, pgd:f267000, qemu:pid:10566
+end pc:77b35cb0, ret:0, err:0, sp:7f5fc7b8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4005 pc:77b38de4 ra:77b38ec0, a0:77b8bc4c, sp:7f5fc8a0, pgd:f267000, qemu:pid:10566
+end pc:77b38de8, ret:f, err:0, sp:7f5fc8a0, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc8c8, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:6, err:0, sp:7f5fc8c8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4003 pc:77b392c4 ra:77b52574, a0:f, sp:7f5fc8c8, pgd:f267000, qemu:pid:10566
+end pc:77b392c8, ret:0, err:0, sp:7f5fc8c8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4006 pc:77b35cac ra:77b52630, a0:f, sp:7f5fc8c8, pgd:f267000, qemu:pid:10566
+end pc:77b35cb0, ret:0, err:0, sp:7f5fc8c8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4004 pc:77b3bfa4 ra:40f708, a0:c, sp:7f5ff248, pgd:f267000, qemu:pid:10566
+end pc:77b3bfa8, ret:169, err:0, sp:7f5ff248, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4043 pc:77b3b790 ra:77b507a8, a0:7f5ffb2c, sp:7f5ffae0, pgd:f267000, qemu:pid:10566
+end pc:77b3b794, ret:6667bfd1, err:0, sp:7f5ffae0, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4054 pc:77b37ba8 ra:40ae58, a0:c, sp:7f5ff2d8, pgd:f267000, qemu:pid:10566
+end pc:77b37bac, ret:0, err:0, sp:7f5ff2d8, exit:0, pid:10566
+----------------------------------------------------------
+sys num:4006 pc:77b35cac ra:40aeb8, a0:c, sp:7f5ff2e8, pgd:f267000, qemu:pid:10566
+end pc:77b35cb0, ret:0, err:0, sp:7f5ff2e8, exit:0, pid:10566
+0.017717:0.008755:0.001844:0.000000:0.007118:43
+
+
+
+lighttpd
+sys num:4045 pc:77811c34 ra:77815610, a0:688000, sp:7fc53d68, pgd:f0e2000, qemu:pid:13771
+end pc:77811c38, ret:688000, err:0, sp:7fc53d68, exit:0, pid:13771
+----------------------------------------------------------
+sys num:4106 pc:778168a0 ra:42d6c0, a0:6871f0, sp:7fc53c28, pgd:f0e2000, qemu:pid:13771
+end pc:778168a4, ret:0, err:0, sp:7fc53c28, exit:0, pid:13771
+----------------------------------------------------------
+sys num:4106 pc:778168a0 ra:42d6c0, a0:687458, sp:7fc53b90, pgd:f0e2000, qemu:pid:13771
+end pc:778168a4, ret:0, err:0, sp:7fc53b90, exit:0, pid:13771
+----------------------------------------------------------
+sys num:4005 pc:77814d90 ra:42d724, a0:687458, sp:7fc53c20, pgd:f0e2000, qemu:pid:13771
+end pc:77814d94, ret:7, err:0, sp:7fc53c20, exit:0, pid:13771
+----------------------------------------------------------
+sys num:4006 pc:77812af0 ra:42d760, a0:7, sp:7fc53c28, pgd:f0e2000, qemu:pid:13771
+end pc:77812af4, ret:0, err:0, sp:7fc53c28, exit:0, pid:13771
+----------------------------------------------------------
+sys num:4106 pc:778168a0 ra:777d1664, a0:657ed0, sp:7fc53b58, pgd:f0e2000, qemu:pid:13771
+end pc:778168a4, ret:0, err:0, sp:7fc53b58, exit:0, pid:13771
+----------------------------------------------------------
+sys num:4042 pc:778122a4 ra:777d173c, a0:7fc53c7c, sp:7fc53c10, pgd:f0e2000, qemu:pid:13771
+end pc:778122a8, ret:7, err:0, sp:7fc53c10, exit:0, pid:13771
+----------------------------------------------------------
+sys num:4042 pc:778122a4 ra:777d17f0, a0:7fc53c84, sp:7fc53c10, pgd:f0e2000, qemu:pid:13771
+end pc:778122a8, ret:9, err:0, sp:7fc53c10, exit:0, pid:13771
+----------------------------------------------------------
+sys num:4002 pc:77813080 ra:777d189c, a0:7fc53c84, sp:7fc53bf0, pgd:f0e2000, qemu:pid:13771
+end pc:77813084, ret:f6a, err:0, sp:7fc53bf0, exit:0, pid:13771
+
+
+
+
+httpd tplink
+
+sys num:4116 pc:77a9c420 ra:4c85b4, a0:7cbff298, sp:7cbff260, pgd:f040000, qemu:pid:3600
+end pc:77a9c424, ra:4c85b4, ret:0, err:0, sp:7cbff260, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:215, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:13, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:202, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:18, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:1ea, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:14, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:1d6, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:3d, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:199, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:3a, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:15f, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:77, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:e8, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:54, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:94, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:d, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:87, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:20, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:67, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:21, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:46, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:18, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:2e, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4175 pc:77add540 ra:77b0e204, a0:14, sp:7cbff2c8, pgd:f040000, qemu:pid:3600
+end pc:77add544, ra:77b0e204, ret:2, err:0, sp:7cbff2c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4171 pc:77add3a0 ra:525c98, a0:14, sp:7cbffae8, pgd:f040000, qemu:pid:3600
+end pc:77add3a4, ra:525c98, ret:0, err:0, sp:7cbffae8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4171 pc:77add3a0 ra:525c98, a0:14, sp:7cbffa98, pgd:f040000, qemu:pid:3600
+end pc:77add3a4, ra:525c98, ret:0, err:0, sp:7cbffa98, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4171 pc:77add3a0 ra:525c98, a0:14, sp:7cbffac0, pgd:f040000, qemu:pid:3600
+end pc:77add3a4, ra:525c98, ret:0, err:0, sp:7cbffac0, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff868, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:9, err:0, sp:7cbff868, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff868, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:3, err:0, sp:7cbff868, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff868, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:1, err:0, sp:7cbff868, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff868, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:2, err:0, sp:7cbff868, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff868, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:2, err:0, sp:7cbff868, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:8, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:10, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:2, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:c, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:7, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:c, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:2, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:9, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:2, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:10, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:2, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:2e, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:2, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff890, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:2, err:0, sp:7cbff890, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4171 pc:77add3a0 ra:525c98, a0:14, sp:7cbffa58, pgd:f040000, qemu:pid:3600
+end pc:77add3a4, ra:525c98, ret:0, err:0, sp:7cbffa58, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff8c8, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:24, err:0, sp:7cbff8c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff8c8, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:37, err:0, sp:7cbff8c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff8c8, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:1f, err:0, sp:7cbff8c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff8c8, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:12, err:0, sp:7cbff8c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff8c8, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:3, err:0, sp:7cbff8c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4004 pc:77aa0c40 ra:77b0e3b8, a0:14, sp:7cbff8c8, pgd:f040000, qemu:pid:3600
+end pc:77aa0c44, ra:77b0e3b8, ret:18, err:0, sp:7cbff8c8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4182 pc:77add840 ra:525ba0, a0:14, sp:7cbffba0, pgd:f040000, qemu:pid:3600
+end pc:77add844, ra:525ba0, ret:0, err:0, sp:7cbffba0, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4006 pc:77aa15c0 ra:77b0ed58, a0:14, sp:7cbffb78, pgd:f040000, qemu:pid:3600
+end pc:77aa15c4, ra:77b0ed58, ret:0, err:0, sp:7cbffb78, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4013 pc:77a9f170 ra:50c184, a0:7cbffc00, sp:7cbffbc8, pgd:f040000, qemu:pid:3600
+end pc:77a9f174, ra:50c184, ret:57f01608, err:0, sp:7cbffbc8, exit:0, pid:3600
+----------------------------------------------------------
+sys num:4142 pc:77a9d7f8 ra:5255b4, a0:13, sp:7cbffb88, pgd:f040000, qemu:pid:3600
+5.051561:0.026524:0.000916:0.000150:5.024887:57
+
+
+
+
+
+write addr ok:77cfd230, 7f7903e96230
+long jmp
+write addr ok:56907c, 7f7903ecc07c
+write addr ok:55e1f0, 7f7903f851f0
+write addr ok:77d63dc0, 7f7912becdc0
+write addr ok:40686c, 7f7903f2986c
+write addr ok:402868, 7f7903f21868
+write addr ok:40adea, 7f7903f25dea
+write addr ok:4039c4, 7f7903ef39c4
+write addr ok:77d3f7a6, 7f7903f4a7a6
+write addr ok:77cd1dce, 7f7912b8bdce
+write addr ok:77cd3cbe, 7f7912b8dcbe
+write addr ok:5976ac, 7f7903fe76ac
+write addr ok:52eb40, 7f7912adab40
+write addr ok:5a4d62, 7f7912a54d62
+
+write addr ok:774c3230, 7f24a36d5230
+write addr ok:56907c, 7f24a370a07c
+write addr ok:55e1f0, 7f24a37621f0
+write addr ok:7752c810, 7f24b23f9810
+write addr ok:7753d0d4, 7f24a37640d4
+write addr ok:77529dc0, 7f24b242bdc0
+write addr ok:40686c, 7f24a377786c
+write addr ok:400bb0, 7f24a3760bb0
+write addr ok:402868, 7f24b2346868
+write addr ok:40adea, 7f24a3773dea
+write addr ok:4039c4, 7f24b23429c4
+write addr ok:775057a6, 7f24a37ab7a6
+write addr ok:77506c25, 7f24a37acc25
+write addr ok:77497dce, 7f24b23cadce
+write addr ok:77499cbe, 7f24b23cccbe
+write addr ok:5976ac, 7f24a38266ac
+write addr ok:52eb40, 7f24b2318b40
+write addr ok:774fe024, 7f24b10cf024
+write addr ok:5a4d62, 7f24b2292d62
+write addr ok:775254f4, 7f24b21b54f4
+write addr ok:7750daa8, 7f24a376faa8
+write addr ok:47bdac, 7f24b22afdac
+write addr ok:493b10, 7f24b22c7b10
+write addr ok:dcc60c, 7f24b21b760c
+write addr ok:774b8a20, 7f24a36caa20
+write addr ok:57311c, 7f24b226011c
+write addr ok:774b9fc0, 7f24a36cbfc0
+write addr ok:5059ac, 7f24b22e39ac
+write addr ok:5c0000, 7f24b2036000
+write addr ok:7749c400, 7f24b23cf400
+
+
+

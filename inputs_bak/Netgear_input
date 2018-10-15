@@ -1,0 +1,14 @@
+POST / HTTP/1.1
+Host: 192.168.0.100
+Connection: keep-alive
+Content-Length: 44
+Origin: chrome-extension://mmdjghedkfbdhbjhmefbbgjaihmmhkeg
+X-Servistate-ReqId: 89aedb45-dd7b-4efa-8e19-caeec35e83ff
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryIJKGcw0MQEVmbyyt
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=ef90ee2ef8c66dbca14cbb1b2598e5a4
+
+------WebKitFormBoundaryIJKGcw0MQEVmbyyt--

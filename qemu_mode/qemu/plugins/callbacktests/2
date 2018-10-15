@@ -1,0 +1,7 @@
+gcc -Wall -O2 -g -fPIC -MMD  -I. -I/home/zyw/experiment/qemu-2.10.1/include -I/home/zyw/experiment/qemu-2.10.1 -I/home/zyw/experiment/qemu-2.10.1/plugins -I/home/zyw/experiment/qemu-2.10.1/fpu -I/home/zyw/experiment/qemu-2.10.1/shared -I/home/zyw/experiment/qemu-2.10.1/target/mips -I/home/zyw/experiment/qemu-2.10.1/mips-softmmu -I/home/zyw/experiment/qemu-2.10.1/slirp  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_GNU_SOURCE -DNEED_CPU_H -I-pthread -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -c -o callbacktests.o callbacktests.c
+In file included from /home/zyw/experiment/qemu-2.10.1/target/mips/cpu.h:13:0,
+                 from callbacktests.c:19:
+/home/zyw/experiment/qemu-2.10.1/include/exec/cpu-defs.h:29:24: fatal error: tcg-target.h: No such file or directory
+compilation terminated.
+Makefile:38: recipe for target 'callbacktests.o' failed
+make: *** [callbacktests.o] Error 1
